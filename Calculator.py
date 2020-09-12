@@ -2,7 +2,7 @@ f_n = float(input("Enter first number:"))
 act = input("Enter math action:")
 list1 = ["/", "*", "+", "-", "^", "%", "//"]
 s_n = float(input("Enter second number:"))
-dec = "Sorry, I\'m stupid and don\'t identified this ERROR"
+dec = "Sorry, I\'m stupid and don\'t identified this ERROR !"
 if act not in list1:
     dec = "Your action isn\'t identified, please try again"
 if act == "+":
